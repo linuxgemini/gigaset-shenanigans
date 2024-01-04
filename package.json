@@ -1,0 +1,26 @@
+{
+  "name": "gigaset-shenanigans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxgemini/gigaset-shenanigans.git"
+  },
+  "author": "linuxgemini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linuxgemini/gigaset-shenanigans/issues"
+  },
+  "homepage": "https://github.com/linuxgemini/gigaset-shenanigans#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
