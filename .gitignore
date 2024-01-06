@@ -166,7 +166,7 @@ dist
 .yarn/install-state.gz
 .pnp.\*
 
-# wrangler project
+# gigaset related stuff
 
-.dev.vars
-.wrangler/
+*.hsdat
+*.extracted
