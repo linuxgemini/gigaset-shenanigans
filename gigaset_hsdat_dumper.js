@@ -18,7 +18,7 @@ const main = () => {
 
     const { unparsed, parsed, isValidDump, handsetFeatureIDBytes } = parseHSDAT(fs.readFileSync(targetFileFullPath));
 
-    fs.writeFileSync(path.join(extractedFolder, `${targetFile}.xml`), unparsed);
+    fs.writeFileSync(path.join(extractedFolder, `_${targetFile}.xml`), unparsed);
 
     if (!isValidDump) throw new Error("dump does not have correct CRC");
     console.log("dump is valid, processing");
